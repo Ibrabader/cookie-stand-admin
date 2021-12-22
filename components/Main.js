@@ -5,23 +5,7 @@ import ReportTable from './ReportTable';
 import Footer from '../components/Footer'
 
 const Main = () => {
-  // const [Hours, setHours] = useState(['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'])
-  // const [cookieStandFormData,setCookieStandFormData] = useState([])
-  // const [totals, setdaytotals] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 
-  // const formHandler =(e)=>{
-  //   e.preDefault();
-  //   let data ={
-  //     Location : e.target.Location.value ,
-  //     Minimum : e.target.minimum.value ,
-  //     Maximum : e.target.Maximum.value ,
-  //     Avarage : e.target.Avarage.value,
-  //   }
-
-  //   let sum =0 ;
-
-  //   // setCookieStandFormData([...data , cookieStandFormData ]);
-  //   setCookieStandFormData(JSON.stringify(data))
   const [workingHours, setworkingHours] = useState(['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'])
   const [report, setallstores] = useState([])
   const [totals, setbranchestotals] = useState([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
@@ -75,14 +59,6 @@ return (
 
     </div>
 
-    {/* <div>
-      <h2 className='text-lg text-center' > Report table coming soon .. </h2>
-
-
-
-
-
-    </div> */}
   </>
 
 )
